@@ -1,0 +1,151 @@
+footer {
+  margin-top: 7rem;
+  background-color: #B91C1C;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-top: 6rem;
+  padding-bottom: 7rem;
+}
+
+.informacoes_contato_footer {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.informacao_contato_uma_footer {
+  display: flex;
+  padding-bottom: 1.5rem;
+}
+
+.imagem_icone_contato {
+  width: 36px;
+  padding-right: 1rem;
+}
+
+.rua_footer {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #F3F4F6;
+}
+
+.cidade_footer {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.numero_contato {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.email_contato {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.titulo_escola_footer {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding-bottom: 1rem;
+}
+
+.texto_escola_footer {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+  color: #F3F4F6;
+  padding-bottom: 1.5rem;
+}
+
+.logo_rede_social_footer {
+  width: 172px;
+}
+
+.informacao_escola_footer {
+  width: 20%;
+}
+
+.final_pagina {
+  background-color: #AA1818;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.texto_final {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .informacoes_contato_footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .informacao_contato_uma_footer {
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .rua_cidade_footer {
+    padding-top: 1rem;
+  }
+
+  .rua_footer {
+    text-align: center;
+  }
+
+  .cidade_footer {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .logo_rede_social_footer {
+    align-self: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .informacao_escola_footer {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+  }
+
+  .texto_final {
+    text-align: center;
+  }
+
+}

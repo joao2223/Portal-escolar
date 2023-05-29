@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Mukta:wght@600&display=swap');
+
+.informacoes_escola {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card_grande_informacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111827;
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+.titulo_card_grande_informacao {
+    width: 609px;
+    padding-bottom: 1%;
+    height: 80px;
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.texto_card_grande_informacao {
+    width: 1008px;
+    height: 114px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    text-align: center;
+    color: #F3F4F6;
+}
+
+.cards_pequenos_informacao {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_pequeno_cinza {
+    background-color: #353436;
+}
+
+.card_pequeno_vermelho {
+    background-color: #B91C1C;
+}
+
+.card_pequeno_azul {
+    background-color: #481A8F;
+}
+
+.texto_card_pequeno_informacao {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 3.8rem;
+}
+
+.cursos_tecnicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_curso {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 66px;
+    text-align: center;
+    color: #111827;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.todos_cursos {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.curso_unico {
+    padding-bottom: 3rem;
+    background-color: #F3F4F6;
+    width: 15rem;
+    height: 10rem;
+    margin: 0.3rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagem_curso {
+    margin-top: 1.5rem;
+}
+
+.oportunidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container_titulo {
+    background-color: #B91C1C;
+    width: 50%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_oportunidades {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.vagas_oportunidades {
+    background-color: #F3F4F6;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.nome_vaga_oportunidades {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #111827;
+}
+
+.data_oportunidades {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #353436;
+}
+
+.mais_infomacoes_vagas_oportunidades {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #B91C1C;
+    padding-top: 1rem;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.titulo_noticias {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 66px;
+    color: #111827;
+}
+
+.cards_noticias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_unico_noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 25rem;
+    height: 18rem;
+    margin: 3rem;
+    background-image: linear-gradient(to bottom, #B91C1C 60%, #F3F4F6 40%);
+}
+
+.texto_noticias {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111827;
+}
+
+.data_noticias {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #353436;
+}
+
+.botao_noticias {
+    margin-top: 2rem;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 8px;
+    background: #B91C1C;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media (max-width: 480px) {
+    .cards_pequenos_informacao {
+        display: none;
+    }
+
+    .card_grande_informacao {
+        width: 100%;
+    }
+
+    .titulo_card_grande_informacao {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .texto_card_grande_informacao {
+        width: 100%;
+        height: 100%;
+    }
+
+    .oportunidades {
+        flex-direction: column;
+    }
+
+    .container_titulo {
+        width: 100%;
+    }
+
+    .vagas_oportunidades {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .uma_vaga_oportunidades {
+        padding-top: 2rem;
+    }
+
+    .cards_noticias {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card_unico_noticias {
+        width: 100%;
+        margin: 0px;
+        margin-top: 5rem;
+    }
+
+}
