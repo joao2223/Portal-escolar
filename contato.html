@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/cabecalho.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/body_inicio.css">
+    <link rel="stylesheet" href="/css/body_contato.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="/images/logo.svg" alt="logo da escola" class="logo_escola">
+        <img src="/images/menu_mobile.svg" alt="menu apenas para mobile" class="menu_mobile">
+        <div class="menu_cabecalho">
+            <a href="/inicio.html" class="texto_menu_cabecalho">Início</a>
+            <a href="/cursos.html" class="texto_menu_cabecalho">Cursos</a>
+            <a href="/noticias.html" class="texto_menu_cabecalho">Notícias</a>
+            <a href="/contato.html" class="texto_menu_cabecalho pagina_atual">Contato</a>
+        </div>
+        <div class="logos_redes">
+            <img src="/images/rede_social.svg" alt="logo instagram" class="logo_rede_social">
+
+        </div>
+    </header>
+
+    <section class="informacoes_contato">
+        <div class="formulario">
+            <div id="mensagem-enviada"></div>
+            <form>
+                <input type="text" class="input_menor" placeholder="Digite o seu nome" required id="campo_nome">
+                <input type="email" class="input_menor" placeholder="Digite o seu e-mail" required id="campo_email">
+                <input type="text" class="input_menor" placeholder="Sobre o que você quer falar?" required id="campo_assunto">
+                <select class="input_menor" id="campo_departamento" required>
+                    <option value="" selected  required>Escolha qual departamento você quer conversar</option>
+                    <option>Administrativo</option>
+                    <option>Biblioteca</option>
+                    <option>Diretoria</option>
+                    <option>Secretaria</option>
+                    <option>Biblioteca</option>
+                    <option>Estágio</option>
+                    <option>Coordenadoria</option>
+                    <option>Ti</option>
+                    <option>Almoxarifado</option>
+                </select>
+                <textarea class="input_maior" placeholder="Digite aqui a mensagem..." required id="campo_mensagem"></textarea>
+                <div class="botoes">
+                    <button class="botao_enviar botao_nome" id="botao_enviar">Enviar</button>
+                    <button class="botao_limpar botao_nome" id="botao_limpar">Limpar Campos</button>
+                </div>
+                <div id="mensagem_enviada" style="display: none;">Mensagem Enviada!</div>
+            </form>
+        </div>
+        <div class="informacoes_departamento">
+            <p class="titulo_departamento">Departamento</p>
+            <div class="nome_mais_email_departamento">
+                <p class="nome_departamento">Administrativo</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="nome_mais_email_departamento cinza">
+                <p class="nome_departamento">Biblioteca</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="nome_mais_email_departamento">
+                <p class="nome_departamento">Diretoria</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="nome_mais_email_departamento cinza">
+                <p class="nome_departamento">Secretaria</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="nome_mais_email_departamento">
+                <p class="nome_departamento">Biblioteca</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="nome_mais_email_departamento cinza">
+                <p class="nome_departamento">Estágio</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="nome_mais_email_departamento">
+                <p class="nome_departamento">Coordenadoria</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="nome_mais_email_departamento cinza">
+                <p class="nome_departamento">TI</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="nome_mais_email_departamento">
+                <p class="nome_departamento">Almoxarifado</p>
+                <p class="email_departamento">loremipsum@gmail.com</p>
+            </div>
+            <div class="card_mapa">
+                <p class="google_maps">google maps</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <img src="/images/logofooter.svg" alt="imagem da escola" class="logo_escola_footer">
+        <div class="informacoes_contato_footer">
+            <div class="informacao_contato_uma_footer">
+                <img src="/images/icone_mundo.svg" class="imagem_icone_contato" alt="logo planeta">
+                <div class="rua_cidade_footer">
+                    <p class="rua_footer">Rua Codelândia, 1367</p>
+                    <p class="cidade_footer"> Cafelândia, SP</p>
+                </div>
+            </div>
+            <div class="informacao_contato_uma_footer">
+                <img src="/images/icone_telefone.svg" class="imagem_icone_contato" alt="logo telefone">
+                <p class="numero_contato">+55 14 9999-9999</p>
+            </div>
+            <div class="informacao_contato_uma_footer">
+                <img src="/images/icone_email.svg" class="imagem_icone_contato" alt="logo email">
+                <p class="email_contato">centropaulasouza@etec.sp.gov.br</p>
+            </div>
+        </div>
+        <div class="informacao_escola_footer">
+            <p class="titulo_escola_footer">Sobre a Etec Cafelândia</p>
+            <p class="texto_escola_footer">Com mais de 20 anos de atuação, a unidade da Etec Professora Helcy Moreira
+                Martins Aguiar se destaca no
+                ensino médio e técnico, recebendo constantemente menções e congratulações em todo o estado de São Paulo.
+            </p>
+            <img src="/images/rede_social_footer.svg" alt="logo rede social" class="logo_rede_social_footer">
+        </div>
+    </footer>
+    <section class="final_pagina">
+        <p class="texto_final">Etec Professora Helcy Moreira Martins Aguiar - 2022 © Todos os direitos reservados.</p>
+    </section>
+
+    <script src='/js/app.js'></script>
+</body>
+
+</html>
